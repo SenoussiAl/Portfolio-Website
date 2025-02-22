@@ -1,0 +1,71 @@
+/* TechStack.css */
+.tech-stack-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.tech-stack-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.tech-stack-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 icons per line */
+    gap: 20px; /* Increased gap for better spacing */
+    padding: 10px;
+}
+
+.tech-stack-item {
+    background-color: #f0f0f0; /* Light grey background */
+    padding: 20px; /* Increased padding for bigger containers */
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tech-stack-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.tech-stack-icon {
+    width: 50px; /* Increased icon size */
+    height: 50px; /* Increased icon size */
+    margin-right: 15px; /* Increased margin for better spacing */
+}
+
+.tech-stack-name {
+    font-size: 1.2rem; /* Increased font size */
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .tech-stack-grid {
+        grid-template-columns: repeat(4, 1fr); /* 4 icons per line for smaller screens */
+    }
+}
+
+@media (max-width: 992px) {
+    .tech-stack-grid {
+        grid-template-columns: repeat(3, 1fr); /* 3 icons per line for tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    .tech-stack-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 icons per line for smaller tablets */
+    }
+}
+
+@media (max-width: 576px) {
+    .tech-stack-grid {
+        grid-template-columns: repeat(1, 1fr); /* 1 icon per line for mobile */
+    }
+}
