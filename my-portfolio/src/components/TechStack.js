@@ -2,7 +2,7 @@
 import React from 'react';
 import '../styles/TechStack.css';
 import { FaJava, FaPython, FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaGitAlt } from 'react-icons/fa';
-import { SiCplusplus, SiSpringboot, SiScikitlearn, SiAngular, SiPostman, SiTensorflow, SiPostgresql, SiMongodb, SiTypescript, SiJavascript, SiApache } from 'react-icons/si';
+import { SiCplusplus, SiSpringboot, SiPostman, SiPostgresql, SiTypescript, SiJavascript, } from 'react-icons/si';
 
 
 const TechStack = () => {
