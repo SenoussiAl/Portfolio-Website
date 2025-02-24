@@ -1,3 +1,15 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
 .hero {
     height: 100vh;
     display: flex;
@@ -6,14 +18,18 @@
     background: linear-gradient(135deg, #6A5ACD, #32CD32);
     color: white;
     text-align: center;
-    overflow: hidden;
     position: relative;
     animation: moveBackground 10s ease infinite;
     background-size: 200% 200%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .hero-content {
     animation: fadeInUp 1.5s ease-in-out;
+    margin: 0;
+    padding: 0;
 }
 
 .hero h1 {

@@ -7,7 +7,7 @@ const Hero = () => {
             <div className="hero-container">
                 <div className="hero-image">
                     <img 
-                        src="public/Profile.jpg" // Replace with your image path
+                        src="../../public/Profile.jpg"
                         alt="Senoussi Al-Nadjib"
                     />
                 </div>

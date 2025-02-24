@@ -1,6 +1,6 @@
 /* TechStack.css */
 .tech-stack-container {
-    padding: 20px;
+    padding: 80px;
     text-align: center;
 }
 
@@ -14,8 +14,15 @@
 .tech-stack-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr); /* 5 icons per line */
-    gap: 20px; /* Increased gap for better spacing */
-    padding: 10px;
+    gap: 30px; /* Increased gap for better spacing */
+    padding:30px;
+}
+#techstack h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-weight: 300;
+    color: #6b46c1;
 }
 
 .tech-stack-item {
@@ -35,8 +42,8 @@
 }
 
 .tech-stack-icon {
-    width: 50px; /* Increased icon size */
-    height: 50px; /* Increased icon size */
+    width: 70px; /* Increased icon size */
+    height: 70px; /* Increased icon size */
     margin-right: 15px; /* Increased margin for better spacing */
 }
 

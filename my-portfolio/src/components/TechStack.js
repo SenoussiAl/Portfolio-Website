@@ -20,23 +20,25 @@ const TechStack = () => {
         { name: 'SpringBoot', icon: <SiSpringboot className="tech-stack-icon" /> },
         { name: 'Postman', icon: <SiPostman className="tech-stack-icon" /> },
         { name: 'Git', icon: <FaGitAlt className="tech-stack-icon" /> },
-        { name: 'PostgreSQL', icon: <SiPostgresql className="tech-stack-icon" /> },
     ];
 
     return (
+        <section id="techstack">
         <div className="tech-stack-container">
-            <h1 className="tech-stack-title">Tech Stack</h1>
+            <h2 className="tech-stack-title">Tech Stack</h2>
             <div className="tech-stack-grid">
                 {techStackData.map((tech, index) => (
                     <div key={index} className="tech-stack-item">
                         <div className="tech-stack-item-inner">
                             {tech.icon}
-                            <span className="tech-stack-name">{tech.name}</span>
+                          {/*  <span className="tech-stack-name">{tech.name}</span>
+                        */}
                         </div>
                     </div>
                 ))}
             </div>
         </div>
+        </section>
     );
 };
 
