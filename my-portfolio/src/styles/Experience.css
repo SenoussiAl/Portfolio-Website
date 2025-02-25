@@ -1,31 +1,32 @@
-/* Experience section container */
 #experience {
-    padding: 50px 0;
+    padding: 50px 20px;
     position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 #experience h2 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 2rem;
-    font-weight: 300;
-    color: #6b46c1;
+    font-weight: bold;
+    color: #6A5ACD;
 }
 
 #experience h3 {
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
-    font-weight: 300;
-    color: #6b46c1;
+    font-weight: 600;
+    color: #333;
 }
 
 #experience h4 {
     text-align: center;
     font-size: 1rem;
-    margin-bottom: 2rem;
-    font-weight: 300;
-    color: black;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    color: #666;
 }
 
 #experience p {
@@ -33,31 +34,28 @@
     font-size: 1rem;
     margin-bottom: 2rem;
     font-weight: 300;
-    color: rgb(0, 0, 0);
+    color: #666;
 }
 
-/* Timeline container */
 .timeline {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-/* Center line */
 .timeline::after {
     content: '';
     position: absolute;
     width: 2px;
-    background-color: #6b46c1;
+    background-color: #6A5ACD;
     top: 0;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
 }
 
-/* Container for experiences */
 .container {
-    padding: 10px 20px;  /* Reduced padding */
+    padding: 10px 20px;
     position: relative;
     width: 50%;
     margin: 20px 0;
@@ -74,30 +72,27 @@
     text-align: left;
 }
 
-/* Content boxes */
 .content {
     padding: 20px;
-    background: #a7faa7;
+    background: #f0f0f0;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     position: relative;
 }
 
-/* Hover effect for content boxes */
 .content:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
 
-/* Circle points */
 .container::before {
     content: '';
     position: absolute;
     width: 16px;
     height: 16px;
     background-color: white;
-    border: 3px solid #6b46c1;
+    border: 3px solid #6A5ACD;
     border-radius: 50%;
     top: 50%;
     transform: translateY(-50%);
@@ -105,7 +100,6 @@
     transition: box-shadow 0.3s ease;
 }
 
-/* Position circles */
 .left::before {
     right: -8px;
 }
@@ -114,81 +108,6 @@
     left: -8px;
 }
 
-/* Hover effect for circles */
 .container:hover::before {
-    box-shadow: 0 0 15px #6b46c1;
-}
-
-/* Dates styling */
-.container::after {
-    content: attr(data-date);
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 0.9em;
-    color: #666;
-}
-
-/* Position dates */
-.left::after {
-    right: -150px;
-}
-
-.right::after {
-    left: -150px;
-}
-
-/* Content styling */
-.content h3 {
-    margin: 0 0 10px 0;
-    color: #333;
-}
-
-.content p {
-    margin: 0 0 15px 0;
-    color: #666;
-}
-
-.content ul {
-    margin: 0;
-    padding-left: 20px;
-}
-
-.content li {
-    margin: 5px 0;
-    color: #444;
-}
-
-/* Responsive design */
-@media screen and (max-width: 768px) {
-    /* Hide line and circles */
-    .timeline::after {
-        display: none;
-    }
-    
-    .container::before {
-        display: none;
-    }
-
-    /* Stack containers */
-    .container {
-        width: 100%;
-        padding-left: 20px;
-        padding-right: 20px;
-        left: 0;
-    }
-
-    /* Adjust date positions */
-    .container::after {
-        position: relative;
-        top: -10px;
-        left: 0;
-        display: block;
-        margin-bottom: 10px;
-    }
-
-    .left::after,
-    .right::after {
-        left: 0;
-    }
+    box-shadow: 0 0 15px #6A5ACD;
 }

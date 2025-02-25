@@ -1,33 +1,27 @@
-/* TechStack.css */
-.tech-stack-container {
-    padding: 80px;
+#techstack {
+    padding: 50px 20px;
     text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .tech-stack-title {
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 20px;
-    color: #333;
+    color: #6A5ACD;
 }
 
 .tech-stack-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 5 icons per line */
-    gap: 30px; /* Increased gap for better spacing */
-    padding:30px;
-}
-#techstack h2 {
-    text-align: center;
-    font-size: 3rem;
-    margin-bottom: 2rem;
-    font-weight: 300;
-    color: #6b46c1;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    padding: 30px;
 }
 
 .tech-stack-item {
-    background-color: #f0f0f0; /* Light grey background */
-    padding: 20px; /* Increased padding for bigger containers */
+    background-color: #f0f0f0;
+    padding: 20px;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -42,37 +36,12 @@
 }
 
 .tech-stack-icon {
-    width: 70px; /* Increased icon size */
-    height: 70px; /* Increased icon size */
-    margin-right: 15px; /* Increased margin for better spacing */
+    width: 70px;
+    height: 70px;
+    margin-right: 15px;
 }
 
 .tech-stack-name {
-    font-size: 1.2rem; /* Increased font size */
+    font-size: 1.2rem;
     color: #333;
-}
-
-/* Responsive Design */
-@media (max-width: 1200px) {
-    .tech-stack-grid {
-        grid-template-columns: repeat(4, 1fr); /* 4 icons per line for smaller screens */
-    }
-}
-
-@media (max-width: 992px) {
-    .tech-stack-grid {
-        grid-template-columns: repeat(3, 1fr); /* 3 icons per line for tablets */
-    }
-}
-
-@media (max-width: 768px) {
-    .tech-stack-grid {
-        grid-template-columns: repeat(2, 1fr); /* 2 icons per line for smaller tablets */
-    }
-}
-
-@media (max-width: 576px) {
-    .tech-stack-grid {
-        grid-template-columns: repeat(1, 1fr); /* 1 icon per line for mobile */
-    }
 }

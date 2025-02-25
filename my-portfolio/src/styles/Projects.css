@@ -1,11 +1,12 @@
 .projects-container {
-    padding: 20px;
+    padding: 50px 20px;
     text-align: center;
-    background: transparent;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .projects-description {
-    font-size: 16px;
+    font-size: 1.2rem;
     color: #666;
     margin-bottom: 40px;
 }
@@ -18,7 +19,7 @@
 }
 
 .project-card {
-    background: white;
+    background: #f0f0f0;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -39,20 +40,20 @@
 }
 
 .project-name {
-    font-size: 20px;
+    font-size: 1.5rem;
     margin: 15px 0 10px;
     color: #333;
 }
 
 .project-summary {
-    font-size: 14px;
+    font-size: 1rem;
     color: #555;
     line-height: 1.5;
     margin-bottom: 10px;
 }
 
 .project-technologies {
-    font-size: 12px;
+    font-size: 0.9rem;
     color: #777;
     margin-bottom: 15px;
 }
@@ -69,16 +70,4 @@
 
 .github-icon {
     font-size: 24px;
-}
-
-@media (max-width: 768px) {
-    .projects-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 480px) {
-    .projects-grid {
-        grid-template-columns: 1fr;
-    }
 }
