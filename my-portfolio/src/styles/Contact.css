@@ -1,8 +1,16 @@
-/* Contact.css */
 .contact-section {
-    padding: 80px 20px;
+    padding: 40px 20px;
     background: linear-gradient(135deg, #6A5ACD, #32CD32);
     color: #ffffff;
+    animation: moveBackground 10s ease infinite;
+    background-size: 200% 200%;
+    position: relative;
+    min-height: 30vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0; 
 }
 
 .contact-container {
@@ -11,6 +19,7 @@
     max-width: 1200px;
     margin: 0 auto;
     gap: 40px;
+    width: 100%;
 }
 
 .contact-info {
@@ -31,7 +40,7 @@
 }
 
 .contact-info a {
-    color: #6A5ACD;
+    color: #000000;
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -77,11 +86,10 @@
     resize: vertical;
     min-height: 150px;
 }
-
 .contact-form button {
     padding: 12px 24px;
-    background-color: #ffffff;
-    color: #32CD32;
+    background-color: white;
+    color: #6A5ACD;
     border: none;
     border-radius: 50px;
     font-size: 1.2rem;
@@ -92,9 +100,12 @@
 }
 
 .contact-form button:hover {
+    background-color: #32CD32;
+    color: white;
     transform: translateY(-5px);
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }
+
 
 .contact-icons {
     display: flex;
@@ -102,23 +113,22 @@
 }
 
 .contact-icons a {
-    color: #6A5ACD;
+    color: #000000;
     text-decoration: none;
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .contact-icons a:hover {
-    color: #32CD32;
+    color: #ffffff;
     transform: translateY(-5px);
 }
 
 .icon {
-    width: 60px; /* Larger icons */
-    height: 60px; /* Larger icons */
+    width: 60px;
+    height: 60px;
     cursor: pointer;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .contact-container {
         flex-direction: column;
@@ -128,5 +138,17 @@
     .contact-info,
     .contact-form {
         max-width: 100%;
+    }
+}
+
+@keyframes moveBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
     }
 }
