@@ -1,30 +1,33 @@
 import React from 'react';
 import '../styles/Projects.css'; 
 
-import GitHubIcon from '@mui/icons-material/GitHub'; 
 
 const Projects = () => {
     const projects = [
         {
-            name: "Customer Relation Management",
-            image: "https://via.placeholder.com/300",
+            name: "Business Communication",
             summary: "Integrated Twilio’s SMS gateway for bulk messaging, scheduled notifications, and customer response tracking.",
-            githubLink: "https://github.com/your-repo-link",
-            technologies: "Java, Spring Boot, React.js, TypeScript, MongoDB, PostgreSQL, Twilio, Docker, Azure Active Directory",
+            technologies: "Java, Spring Boot, React.js, TypeScript, MongoDB, PostgreSQL, Twilio",
         },
         {
-            name: "Hotel Room Booking Website",
-            image: "https://via.placeholder.com/300",
+            name: "Hotel Room Booking",
             summary: "Created a platform enabling online room searches, reservations, and secure payments.",
-            githubLink: "https://github.com/your-repo-link",
-            technologies: "Spring Boot, React.js, TypeScript, Java, Docker, PostgreSQL, WebSocket",
+            technologies: "Spring Boot, React.js, TypeScript, Java, Docker, PostgreSQL",
         },
         {
             name: "Basketball Match Predictor",
-            image: "https://via.placeholder.com/300", 
             summary: "Developed a web application that predicts a basketball match's results for an upcoming game based on historical data and current conditions.",
-            githubLink: "https://github.com/your-repo-link",
             technologies: "Python, TensorFlow, Scikit-Learn, Django, React.js, Pandas",
+        },
+        {
+            name: "AI-Powered Movie Recommender",
+            summary: "Developed a web application Users rate movies, AI recommends based on preferences.",
+            technologies: "Python, TensorFlow, Scikit-Learn, Django, React.js, Pandas",
+        },
+        {
+            name: "Browser Ad Blocker Extension",
+            summary: "Extension to block ads on web pages using filter lists.",
+            technologies: "JavaScript, Manifest V3 (Chrome Extensions API)",
         },
     ];
 
@@ -35,13 +38,9 @@ const Projects = () => {
             <div className="projects-grid">
                 {projects.map((project, index) => (
                     <div key={index} className="project-card">
-                        <img src={project.image} alt={project.name} className="project-image" />
                         <h3 className="project-name">{project.name}</h3>
                         <p className="project-summary">{project.summary}</p>
                         <p className="project-technologies"><strong>Technologies:</strong> {project.technologies}</p>
-                        <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="github-link">
-                            <GitHubIcon className="github-icon" />
-                        </a>
                     </div>
                 ))}
             </div>
