@@ -24,11 +24,6 @@ const TechStack = () => {
 
     return (
         <section id="techstack">
-        <h1 className="section-title">Aboutk</h1>
-        <p className="section-subtitle">Hello, My name is Senoussi Al-Nadjib. I am a Software Engineer from Ottawa, Canada.
-
-I love working on a variety of technologies including backend and frontend development.I've been close to a computer since an early age, and been passionate about it ever since.
- My goal is to build highly performant applications that solve real-world problems and provide users with an awesome experience.</p>
         <div className="tech-stack-container">
             <h2 className="tech-stack-title">Tech Stack</h2>
             <div className="tech-stack-grid">
