@@ -3,13 +3,10 @@ import '../styles/Hero.css';
 
 const Hero = () => {
     return (
-        <section className="hero">
+        <section id="hero">
             <div className="hero-container">
                 <div className="hero-image">
-                    <img 
-                        src="../../public/Profile.jpg"
-                        alt="Senoussi Al-Nadjib"
-                    />
+                <img src="/Profile.jpg" alt="Senoussi Al-Nadjib" />
                 </div>
                 <div className="hero-content">
                     <h1>Senoussi Al-Nadjib</h1>

@@ -3,6 +3,7 @@ import '../styles/Projects.css';
 
 
 const Projects = () => {
+    
     const projects = [
         {
             name: "Business Communication",
@@ -37,6 +38,8 @@ const Projects = () => {
     ];
 
     return (
+
+        <section id="projects">
         <div className="projects-container">
             <h2>My Projects</h2>
             <p className="projects-description">What I have worked on.</p>
@@ -50,6 +53,7 @@ const Projects = () => {
                 ))}
             </div>
         </div>
+        </section>
     );
 };
 

@@ -15,7 +15,7 @@ const Navbar = () => {
                     <div className="line"></div>
                 </button>
                 <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
-                    <li><a href="/" onClick={toggleMenu}>Home</a></li>
+                    <li><a href="#hero" onClick={toggleMenu}>Home</a></li>
                     <li><a href="#techstack" onClick={toggleMenu}>Tech Stack</a></li>
                     <li><a href="#experience" onClick={toggleMenu}>Experience</a></li>
                     <li><a href="#projects" onClick={toggleMenu}>Projects</a></li>

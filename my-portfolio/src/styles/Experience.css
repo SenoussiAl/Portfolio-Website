@@ -26,7 +26,7 @@
     font-size: 1rem;
     margin-bottom: 1rem;
     font-weight: 400;
-    color: #666;
+    color: #343434;
 }
 
 #experience p {
@@ -34,7 +34,7 @@
     font-size: 1rem;
     margin-bottom: 2rem;
     font-weight: 300;
-    color: #666;
+    color: #343434;
 }
 
 .timeline {
@@ -110,4 +110,69 @@
 
 .container:hover::before {
     box-shadow: 0 0 15px #6A5ACD;
+}
+#experience {
+    padding: 50px 20px;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease-out;
+}
+
+#experience.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+
+.tab-button {
+    padding: 10px 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #666;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.tab-button.active {
+    color: #6A5ACD;
+    font-weight: 600;
+}
+
+.tab-button.active::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #6A5ACD;
+    animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+    from { transform: scaleX(0); }
+    to { transform: scaleX(1); }
+}
+
+.container {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+}
+
+.container.animate {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: var(--delay);
 }
