@@ -28,7 +28,7 @@ const Projects = () => {
         {
             name: "Browser Ad Blocker Extension",
             summary: "Extension to block ads on web pages using filter lists.",
-            technologies: "JavaScript, Manifest V3 (Chrome Extensions API)",
+            technologies: "JavaScript, Manifest V3",
         },
         {
             name: "Space Shooter Game",
