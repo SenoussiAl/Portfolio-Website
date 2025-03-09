@@ -29,6 +29,11 @@ const Projects = () => {
             summary: "Extension to block ads on web pages using filter lists.",
             technologies: "JavaScript, Manifest V3 (Chrome Extensions API)",
         },
+        {
+            name: "Space Shooter Game",
+            summary: "Developed a game with player-controlled spaceship shooting at enemies.",
+            technologies: "C++, SFML",
+        },
     ];
 
     return (
