@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa'; 
+import emailjs from 'emailjs-com';
 import '../styles/Contact.css'; 
 
 const Contact = () => {
@@ -19,18 +20,30 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        alert('Thank you for reaching out!');
-        setFormData({
-            name: '',
-            email: '',
-            message: ''
+
+        emailjs.send(
+            'service_itjsnhm',
+            'template_s1u8ahc',
+            {
+                from_name: formData.name,
+                from_email: formData.email,
+                message: formData.message,
+            },
+            'ND7Bt7kmhjwt2dMsx'
+        )
+        .then((response) => {
+            alert('Message sent successfully!');
+            setFormData({ name: '', email: '', message: '' });
+        })
+        .catch((error) => {
+            alert('Failed to send message. Please try again.');
+            console.error('EmailJS Error:', error);
         });
     };
 
     return (
         <section id="contact" className="contact-section">
             <div className="contact-container">
-                {/* Left Side: Contact Information with Icons */}
                 <div className="contact-info">
                     <h2>Reach out to me!</h2>
                     <p><strong>Location:</strong> Ottawa, Ontario, Canada (Open to Relocation)</p>
@@ -47,7 +60,6 @@ const Contact = () => {
                     </div>
                 </div>
 
-                {/* Right Side: Contact Form */}
                 <div className="contact-form">
                     <form onSubmit={handleSubmit}>
                         <div className="form-group">
