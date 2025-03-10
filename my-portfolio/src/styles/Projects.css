@@ -1,5 +1,6 @@
 #projects {
-    padding: 100px 30px;
+    padding-top: 30px 30px;
+    padding-bottom: 100px;
     text-align: center;
     max-width: 1200px;
     margin: 0 auto;
@@ -79,4 +80,20 @@
 
 .github-icon {
     font-size: 24px;
+}
+
+.projects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+}
+
+.project-card {
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-summary {
+    flex-grow: 1;
 }
