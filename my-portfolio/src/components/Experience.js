@@ -23,7 +23,7 @@ const Experience = () => {
             position: "right"
         },
         {
-            title: "Techincal Analyst",
+            title: "Software Developer",
             organization: "Royal Canadian Mounted Police",
             date: "January 2022 - July 2022",
             description: "Developed and maintained Python and C programs to support internal applications.",
