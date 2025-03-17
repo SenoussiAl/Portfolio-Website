@@ -22,13 +22,13 @@ const Experience = () => {
             description: "Developed dynamic, data-driven web pages using React.js, Node.js, and TypeScript.",
             position: "right"
         },
-        {
+       (/* {
             title: "Software Developer",
             organization: "Royal Canadian Mounted Police",
             date: "January 2022 - July 2022",
             description: "Developed and maintained Python and C programs to support internal applications.",
             position: "left"
-        },
+        },*/}
     ];
 
     const educations = [
