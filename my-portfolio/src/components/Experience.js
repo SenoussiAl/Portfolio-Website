@@ -22,6 +22,13 @@ const Experience = () => {
             description: "Developed dynamic, data-driven web pages using React.js, Node.js, and TypeScript.",
             position: "right"
         },
+        {
+            title: "Software Developer",
+            organization: "Service Canada",
+            date: "January 2022 - July 2022",
+            description: "eveloped multiple internal applications with Python, Java and C++.",
+            position: "left"
+        },
     ];
 
     const educations = [
