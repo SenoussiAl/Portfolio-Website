@@ -24,9 +24,9 @@ const Experience = () => {
         },
         {
             title: "Software Developer",
-            organization: "Service Canada",
+            organization: "Royal Canadian Mounted Police",
             date: "January 2022 - July 2022",
-            description: "eveloped multiple internal applications with Python, Java and C++.",
+            description: "Developed multiple internal applications with Python, Java and C++.",
             position: "left"
         },
     ];
