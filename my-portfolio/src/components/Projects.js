@@ -13,7 +13,7 @@ const Projects = () => {
         {
             name: "Hotel Room Booking",
             summary: "Created a platform enabling online room searches, reservations, and secure payments.",
-            technologies: "Spring Boot, React.js, TypeScript, Java, Docker, PostgreSQL",
+            technologies: "ASP.NET, React.js, JavaScript, C#, Docker, PostgreSQL",
         },
         {
             name: "Basketball Match Predictor",
