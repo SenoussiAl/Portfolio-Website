@@ -19,14 +19,14 @@ const Experience = () => {
             title: "Front-end Developer",
             organization: "Service Canada",
             date: "September 2022 - December 2022",
-            description: "Developed dynamic, data-driven web pages using React.js, Node.js, and TypeScript.",
+            description: "Developed dynamic, data-driven web pages using React.js, C#, and JavaScript.",
             position: "right"
         },
         {
-            title: "Software Developer",
+            title: "Technical Analyst",
             organization: "Royal Canadian Mounted Police",
             date: "January 2022 - July 2022",
-            description: "Developed multiple internal applications with Python, Java and C++.",
+            description: "Provided technical support to end-users by troubleshooting hardware and software issues",
             position: "left"
         },
     ];
