@@ -6,7 +6,7 @@ const Projects = () => {
     
     const projects = [
         {
-            name: "Business Communication",
+            name: "Business Communication Platform",
             summary: "Integrated Twilio’s SMS gateway for bulk messaging, scheduled notifications, and customer response tracking.",
             technologies: "Java, Spring Boot, React.js, TypeScript, MongoDB, PostgreSQL, Twilio",
         },
