@@ -10,7 +10,7 @@ const Experience = () => {
     const experiences = [
         {
             title: "Configuration Management",
-            organization: "Shared Services Canada",
+            organization: "Employment and Social Development Canada",
             date: "May 2024 - August 2024",
             description: "Optimized configuration processes by mapping thousands of servers to applications.",
             position: "left"
@@ -35,7 +35,7 @@ const Experience = () => {
         {
             degree: "Bachelor of Software Engineering",
             institution: "University of Ottawa",
-            date: "2020 - 2024",
+            date: "2020 - 2025",
             description: "Relevant courses: Data Structures, Algorithms, Web Development",
             position: "left"
         },
