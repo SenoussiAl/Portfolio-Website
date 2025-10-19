@@ -1,15 +1,15 @@
 // TechStack.js
 import React from 'react';
 import '../styles/TechStack.css';
-import { FaJava, FaPython, FaReact, FaHtml5, FaCss3Alt, FaGitAlt } from 'react-icons/fa';
-import { SiCplusplus, SiSpringboot, SiPostgresql, SiTypescript, SiJavascript, SiDotnet, SiCsharp } from 'react-icons/si';
+import { FaJava, FaPython, FaReact, FaGitAlt } from 'react-icons/fa';
+import { SiCplusplus, SiSpringboot, SiPostgresql, SiTypescript, SiJavascript, SiDotnet } from 'react-icons/si';
 
 const TechStack = () => {
     const techStackData = [
         { name: 'C++', icon: <SiCplusplus className="tech-stack-icon" /> },
         { name: 'Java', icon: <FaJava className="tech-stack-icon" /> },
         { name: 'Python', icon: <FaPython className="tech-stack-icon" /> },
-        { name: 'C#', icon: <SiCsharp className="tech-stack-icon" /> },
+        { name: '.Net', icon: <SiDotnet className="tech-stack-icon" /> },
         { name: 'JavaScript', icon: <SiJavascript className="tech-stack-icon" /> },
         { name: 'SQL', icon: <SiPostgresql className="tech-stack-icon" /> },
         { name: 'TypeScript', icon: <SiTypescript className="tech-stack-icon" /> },
