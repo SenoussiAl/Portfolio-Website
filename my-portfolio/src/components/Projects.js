@@ -16,14 +16,14 @@ const Projects = () => {
             technologies: "ASP.NET, React.js, JavaScript, C#, Docker, PostgreSQL",
         },
         {
-            name: "Basketball Match Predictor",
-            summary: "Developed a web application that predicts a basketball match's results for an upcoming game based on historical data and current conditions.",
-            technologies: "Python, TensorFlow, Scikit-Learn, Django, React.js, Pandas",
+            name: "Online Marketplace",
+            summary: "Developed an online marketplace website that allows users to browse, buy and resell shoes.",
+            technologies: " ASP.NET, C#, JavaScript, React.js, Docker, PostgreSQL, JWT",
         },
         {
-            name: "AI-Powered Movie Recommender",
-            summary: "Developed a web application Users rate movies, AI recommends based on preferences.",
-            technologies: "Python, TensorFlow, Scikit-Learn, Django, React.js, Pandas",
+            name: "Social Media Mobile App",
+            summary: "Developed a mobile social platform allowing users to post images, like and comment on content, and message friends.",
+            technologies: "React Native, TypeScript, Java, Spring Boot, PostgreSQL, WebSockets",
         },
         {
             name: "Browser Ad Blocker Extension",
