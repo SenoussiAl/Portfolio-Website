@@ -9,34 +9,34 @@ const Experience = () => {
 
     const experiences = [
         {
-            title: "Configuration Management",
-            organization: "Employment and Social Development Canada",
-            date: "May 2024 - August 2024",
-            description: "Optimized configuration processes by mapping thousands of servers to applications.",
+            title: "Software Engineer",
+            organization: "Trolet",
+            date: "June 2025 - Present",
+            description: "Refactored a Java Spring Boot + DynamoDB backend, built Next.js frontend features, automated data entry via the Gemini API, and developed an end-to-end audit logging system.",
             position: "left"
         },
         {
-            title: "Front-end Developer",
-            organization: "Service Canada",
-            date: "September 2022 - December 2022",
-            description: "Developed dynamic, data-driven web pages using React.js, C#, and JavaScript.",
+            title: "Software Configuration Manager",
+            organization: "Shared Services Canada",
+            date: "May 2024 - August 2024",
+            description: "Maintained application-to-server relationships in the CMDB, gathered technical requirements across teams, and contributed to a 95% on-time delivery rate.",
             position: "right"
         },
         {
-            title: "Technical Analyst",
-            organization: "Royal Canadian Mounted Police",
-            date: "January 2022 - July 2022",
-            description: "Provided technical support to end-users by troubleshooting hardware and software issues",
+            title: "Software Engineer",
+            organization: "Employment and Social Development Canada",
+            date: "September 2022 - December 2022",
+            description: "Built a Java Spring Boot web application, developed real-time analytics dashboards, and contributed to Docker and CI/CD pipeline improvements on Google Cloud.",
             position: "left"
         },
     ];
 
     const educations = [
         {
-            degree: "Bachelor of Software Engineering",
+            degree: "Bachelor of Applied Science in Software Engineering",
             institution: "University of Ottawa",
             date: "2020 - 2025",
-            description: "Relevant courses: Data Structures, Algorithms, Web Development",
+            description: "Relevant courses: Data Structures, Algorithms, Web Development, Software Design, CI/CD, and Agile Methodology.",
             position: "left"
         },
     ];
@@ -59,8 +59,7 @@ const Experience = () => {
                     </h2>
                 </button>
             </div>
-            
-            
+
             <div className="timeline" ref={timelineRef}>
                 {(activeTab === 'experience' ? experiences : educations).map((item, index) => (
                     <div 
