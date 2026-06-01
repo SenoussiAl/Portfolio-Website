@@ -11,7 +11,7 @@ const Hero = () => {
                 <div className="hero-content">
                     <h1>Senoussi Al-Nadjib</h1>
                     <p>
-                        I am a Software Engineering student at the University of Ottawa with a passion for building scalable and efficient software solutions. I have experience in full-stack development, database design, and cloud technologies.
+                        Developer specialized in Java/Spring Boot, JavaScript, and React.js with experience in web application development, CI/CD, and microservices architecture. Experienced working in Agile environments, conducting code reviews, and implementing automated testing.
                     </p>
                     <a href="/resume.pdf" download className="resume-download">Download Resume</a>
                 </div>
