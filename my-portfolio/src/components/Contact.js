@@ -46,7 +46,7 @@ const Contact = () => {
             <div className="contact-container">
                 <div className="contact-info">
                     <h2>Reach out to me!</h2>
-                    <p><strong>Location:</strong> Ottawa, Ontario, Canada (Open to Relocation)</p>
+                    <p><strong>Location:</strong> Montreal, Quebec or Ottawa, Ontario, Canada (Open to Relocation)</p>
                     <div className="contact-icons">
                         <a href="mailto:senoussi08@gmail.com" target="_blank" rel="noopener noreferrer">
                             <FaEnvelope className="icon" />
