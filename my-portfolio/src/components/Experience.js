@@ -11,7 +11,7 @@ const Experience = () => {
         {
             title: "Software Engineer",
             organization: "Trolet",
-            date: "June 2025 - Present",
+            date: "January 2026 - Present",
             description: "Refactored a Java Spring Boot + DynamoDB backend, built Next.js frontend features, automated data entry via the Gemini API, and developed an end-to-end audit logging system.",
             position: "left"
         },
