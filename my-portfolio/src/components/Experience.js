@@ -16,7 +16,7 @@ const Experience = () => {
             position: "left"
         },
         {
-            title: "Software Configuration Manager",
+            title: "Systems Configuration Analyst",
             organization: "Shared Services Canada",
             date: "May 2024 - August 2024",
             description: "Maintained application-to-server relationships in the CMDB, gathered technical requirements across teams, and contributed to a 95% on-time delivery rate.",
